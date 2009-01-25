@@ -1,5 +1,6 @@
 #summary Getting started with MPOAuthConnection
 #labels Documentation
+#sidebar TOCMPOAuthTopics
 
 = Introduction =
 
