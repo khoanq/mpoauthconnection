@@ -1,0 +1,21 @@
+#summary Getting started with MPOAuthConnection
+#labels Documentation
+
+= Introduction =
+
+MPOAuthConnection was created primarily to be a very high level wrapper around Web Services that utilize OAuth as a an authorization mechanism. The goal is that you merely give it your credentials and then call the methods on the remote server endpoint that you're interested in receiving the data requested either synchronously or asynchronously.
+It also allows people who are interested to directly use the underlying MPOAuthConnection class directly and manage the OAuth state themselves.
+
+= Samples =
+  * MPOAuthClient - Mac
+  * MPOAuthMobile - iPhone/iPod Touch
+
+= High Level Classes =
+  * MPOAuthAPI
+  * MPOAuthAPIReqeuestLoader
+
+= API Components =
+  * MPOAuthConnection
+  * MPOAuthURLResponse
+  * MPOAuthURLRequest
+  * MPOAuthSignatureParameter
