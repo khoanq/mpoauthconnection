@@ -2,4 +2,6 @@
   * [Examples Samples]
     * [MPOAuthClient MPOAuthClient]
     * [MPOAuthMobile MPOAuthMobile]
-  * [MPOAuthAPI MPOAuthAPI]
+  * High Level APIs
+    * [MPOAuthAPI MPOAuthAPI]
+    * [MPOAuthAPIRequest MPOAuthAPIRequest]
