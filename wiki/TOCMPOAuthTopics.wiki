@@ -1,5 +1,5 @@
   * [GettingStarted ↑ Home]
-  * [Examples Tasks]
+  * [Examples Samples]
     * [MPOAuthClient MPOAuthClient]
     * [MPOAuthMobile MPOAuthMobile]
   * [MPOAuthAPI MPOAuthAPI]
