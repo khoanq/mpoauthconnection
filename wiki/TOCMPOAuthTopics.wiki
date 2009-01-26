@@ -6,7 +6,7 @@
     * [MPOAuthAPI MPOAuthAPI]
     * [MPOAuthAPIRequestLoader MPOAuthAPIRequestLoader]
   * API Components
-    * MPOAuthConnection
-    * MPOAuthURLResponse
-    * MPOAuthURLRequest
-    * MPOAuthSignatureParameter
+    * [MPOAuthConnection MPOAuthConnection]
+    * [MPOAuthURLResponse MPOAuthURLResponse]
+    * [MPOAuthURLRequest MPOAuthURLRequest]
+    * [MPOAuthSignatureParameter MPOAuthSignatureParameter]
