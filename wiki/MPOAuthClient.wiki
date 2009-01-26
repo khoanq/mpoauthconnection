@@ -1,0 +1,12 @@
+#summary Documentation of the MPOAuthClient sample application included with MPOAuth
+
+= Introduction =
+
+MPOAuthClient is the default application used for testing MPOAuth with your service endpoints. It's compiled to link to the MPOAuth framework and requires you to put in your service endpoint and OAuth credentials to be able to quickly test the remote service endpoint. MPOAuthClient is written using Objective-C 2.0 and requires Leopard or greater to run.
+
+
+= Using MPOAuthClient =
+
+= How MPOAuthClient is built =
+
+  * Linking to MPOAuth.framework
