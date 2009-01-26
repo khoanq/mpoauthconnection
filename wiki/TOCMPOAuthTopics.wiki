@@ -4,4 +4,4 @@
     * [MPOAuthMobile MPOAuthMobile]
   * High Level APIs
     * [MPOAuthAPI MPOAuthAPI]
-    * [MPOAuthAPIRequest MPOAuthAPIRequest]
+    * [MPOAuthAPIRequestLoader MPOAuthAPIRequestLoader]
