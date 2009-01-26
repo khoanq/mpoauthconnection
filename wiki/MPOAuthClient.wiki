@@ -1,4 +1,5 @@
 #summary Documentation of the MPOAuthClient sample application included with MPOAuth
+#sidebar TOCMPOAuthTopics
 
 = Introduction =
 
