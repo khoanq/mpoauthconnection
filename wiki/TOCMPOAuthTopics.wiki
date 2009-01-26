@@ -5,3 +5,8 @@
   * High Level APIs
     * [MPOAuthAPI MPOAuthAPI]
     * [MPOAuthAPIRequestLoader MPOAuthAPIRequestLoader]
+  * API Components
+    * MPOAuthConnection
+    * MPOAuthURLResponse
+    * MPOAuthURLRequest
+    * MPOAuthSignatureParameter
