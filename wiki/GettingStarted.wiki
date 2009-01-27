@@ -26,11 +26,11 @@ The above is all you really need, once you've done that the framework will autom
   * [MPOAuthMobile] - iPhone/iPod Touch
 
 = High Level Classes =
-  * MPOAuthAPI
-  * MPOAuthAPIReqeuestLoader
+  * [MPOAuthAPI]
+  * [MPOAuthAPIReqeuestLoader]
 
 = API Components =
-  * MPOAuthConnection
-  * MPOAuthURLResponse
-  * MPOAuthURLRequest
-  * MPOAuthSignatureParameter
+  * [MPOAuthConnection]
+  * [MPOAuthURLResponse]
+  * [MPOAuthURLRequest]
+  * [MPOAuthSignatureParameter]
