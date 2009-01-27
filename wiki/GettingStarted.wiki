@@ -19,7 +19,7 @@ _oauthAPI = [[MPOAuthAPI alloc] initWithCredentials:credentials
 					 andBaseURL:[NSURL URLWithString:@"http://example.com/webservice"]]];
 }}}
 
-The above is all you really need, once you've done that the framework will automatically try and connect to the service, authorize itself, open a browser to get authorized by the user, and finally get an access token allowing you to begin making authorized API calls as soon as the access token notification has been received.
+The above is all you really need(after you've input your urls and credentials), once you've done that the framework will automatically try and connect to the service, authorize itself, open a browser to get authorized by the user, and finally get an access token allowing you to begin making authorized API calls as soon as the access token notification has been received.
 
 = Samples =
   * [MPOAuthClient] - Mac
