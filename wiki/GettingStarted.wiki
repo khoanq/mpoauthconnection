@@ -23,7 +23,7 @@ The above is all you really need, once you've done that the framework will autom
 
 = Samples =
   * [MPOAuthClient] - Mac
-  * MPOAuthMobile - iPhone/iPod Touch
+  * [MPOAuthMobile] - iPhone/iPod Touch
 
 = High Level Classes =
   * MPOAuthAPI
