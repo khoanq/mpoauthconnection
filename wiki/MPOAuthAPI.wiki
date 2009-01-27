@@ -1,4 +1,5 @@
 #summary Documentation for the MPOAuthAPI class and its use
+#labels Documentation
 #sidebar TOCMPOAuthTopics
 
 = Introduction =
@@ -12,12 +13,12 @@ MPOAuthAPI is the class in which all the magic happens. It's responsible for cre
 = API =
 
 == Properties ==
-
+{{{
 @property (nonatomic, readonly, retain) NSURL *baseURL;
 @property (nonatomic, readonly, retain) NSURL *authenticationURL;
 @property (nonatomic, readwrite, assign) MPOAuthSignatureScheme signatureScheme;
 @property (nonatomic, readwrite, assign) id <MPOAuthAPIDelegate> delegate;
-
+}}}
 == Initialization ==
 {{{
 - (id)initWithCredentials:(NSDictionary *)inCredentials andBaseURL:(NSURL *)inURL;
