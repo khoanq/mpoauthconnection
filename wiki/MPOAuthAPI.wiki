@@ -35,7 +35,7 @@ Initialization minimally requires credentials containing a consumer secret and k
 - (void)performMethod:(NSString *)inMethod atURL:(NSURL *)inURL withParameters:(NSArray *)inParameters withTarget:(id)inTarget andAction:(SEL)inAction;
 }}}
 
-Perform an asynchronous request by providing the method string relative to the baseURL, the target object you'd like the passed in action selector to be called on when the load is complete and the document is ready. You can also pass in a different baseURL in the case where a service shares credentials across more than one service endpoint.
+Perform an asynchronous request by providing the method string relative to the baseURL, the target object you'd like the passed in action selector to be called on when the load is complete and the document is ready. Parameters are passed in as an array of MPURLParameter objects. You can also pass in a different baseURL in the case where a service shares credentials across more than one service endpoint.
 
 == Synchronous API Requests ==
 {{{
