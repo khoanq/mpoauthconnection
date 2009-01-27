@@ -22,7 +22,7 @@ _oauthAPI = [[MPOAuthAPI alloc] initWithCredentials:credentials
 The above is all you really need, once you've done that the framework will automatically try and connect to the service, authorize itself, open a browser to get authorized by the user, and finally get an access token allowing you to immediately after these lines and waiting for the notification of access token received begin making authorized API calls.
 
 = Samples =
-  * MPOAuthClient - Mac
+  * [MPOAuthClient] - Mac
   * MPOAuthMobile - iPhone/iPod Touch
 
 = High Level Classes =
