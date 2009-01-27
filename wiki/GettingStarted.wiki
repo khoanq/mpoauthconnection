@@ -7,7 +7,7 @@
 MPOAuthConnection was created primarily to be a very high level wrapper around Web Services that utilize OAuth as a an authorization mechanism. The goal is that you merely give it your credentials and then call the methods on the remote server endpoint that you're interested in receiving the data requested either synchronously or asynchronously for. It will even take care of the credential storage utilizing the keychain on Mac OS X and iPhone for secure storage. It also allows people who are interested to directly use the underlying MPOAuthConnection class directly and manage the OAuth state themselves.
 
 = The useful snippet =
-The lines of code that take you from nothing to working is:
+The lines of code that take you from nothing to working are:
 {{{
 
 NSDictionary *credentials = [NSDictionary dictionaryWithObjectsAndKeys:	@"consumerKey"], kMPOAuthCredentialConsumerKey,
