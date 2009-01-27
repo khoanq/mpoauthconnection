@@ -7,7 +7,8 @@
 MPOAuthAPIRequestLoader encapsulates API requests to the service endpoint in order to keep the request, response, and connection together.
 
 
-= Details =
+= Properties & Tasks =
+== Properties ==
 {{{
 @property (nonatomic, readwrite, retain) id <MPOAuthCredentialStore, MPOAuthParameterFactory> credentials;
 @property (nonatomic, readwrite, retain) MPOAuthURLRequest *oauthRequest;
