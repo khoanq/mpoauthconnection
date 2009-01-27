@@ -1,10 +1,10 @@
 #summary MPOAuthMobile sample application for iPhone and iPod Touch
 #labels Documentation
+#sidebar TOCMPOAuthTopics
 
 = Introduction =
 
-Add your content here.
-
+MPOAuthMobile is a sample application showing how to link and use MPOAuth with your iPhone or iPod Touch application. It differs from MPOAuthClient since it's not really useful as a diagnostic tool since text input on the iPhone is nowhere near as easy as on a desktop. Instead it utilizes the MPOAuthAPI delegate API to manually take part in the automatic authorization to prevent the default launch of an external browser to handle requesting user access credentials.
 
 = Details =
 
