@@ -9,4 +9,5 @@
     * [MPOAuthConnection MPOAuthConnection]
     * [MPOAuthURLResponse MPOAuthURLResponse]
     * [MPOAuthURLRequest MPOAuthURLRequest]
+    * [MPURLRequestParameter] 
     * [MPOAuthSignatureParameter MPOAuthSignatureParameter]
