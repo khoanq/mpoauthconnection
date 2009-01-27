@@ -27,7 +27,7 @@ The above is all you really need(after you've input your urls and credentials), 
 
 = High Level Classes =
   * [MPOAuthAPI]
-  * [MPOAuthAPIReqeuestLoader]
+  * [MPOAuthAPIRequestLoader]
 
 = API Components =
   * [MPOAuthConnection]
