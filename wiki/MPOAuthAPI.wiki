@@ -1,0 +1,37 @@
+#summary Documentation for the MPOAuthAPI class and its use
+
+= Introduction =
+
+MPOAuthAPI is the class in which all the magic happens. It's responsible for creating and maintaining an authorized API connection to the service endpoint you requested, once given the proper credentials to do so with. It will connect to the server, and perform a 3 legged oauth authorization request, collect and store your request and access tokens on the keychain, and refresh your access token periodically as necessary. It also allows you to make requests on the remote API synchronously and asynchronously.
+
+
+= Tasks =
+  * Initializing an instance
+
+= API =
+
+== Properties ==
+
+@property (nonatomic, readonly, retain) NSURL *baseURL;
+@property (nonatomic, readonly, retain) NSURL *authenticationURL;
+@property (nonatomic, readwrite, assign) MPOAuthSignatureScheme signatureScheme;
+@property (nonatomic, readwrite, assign) id <MPOAuthAPIDelegate> delegate;
+
+== Initialization ==
+
+- (id)initWithCredentials:(NSDictionary *)inCredentials andBaseURL:(NSURL *)inURL;
+- (id)initWithCredentials:(NSDictionary *)inCredentials authenticationURL:(NSURL *)inAuthURL andBaseURL:(NSURL *)inBaseURL;
+
+== Authentication ==
+
+- (void)authenticate;
+
+== Asynchronous API Requests ==
+
+- (void)performMethod:(NSString *)inMethod withTarget:(id)inTarget andAction:(SEL)inAction;
+- (void)performMethod:(NSString *)inMethod atURL:(NSURL *)inURL withParameters:(NSArray *)inParameters withTarget:(id)inTarget andAction:(SEL)inAction;
+
+== Synchronous API Requests ==
+- (NSData *)dataForMethod:(NSString *)inMethod;
+- (NSData *)dataForMethod:(NSString *)inMethod withParameters:(NSArray *)inParameters;
+- (NSData *)dataForURL:(NSURL *)inURL andMethod:(NSString *)inMethod withParameters:(NSArray *)inParameters;
