@@ -1,4 +1,4 @@
-#summary MPOAuthMobile sample application for iPhone and iPod Touch
+#summary Documentation of theMPOAuthMobile sample application for iPhone and iPod Touch
 #labels Documentation
 #sidebar TOCMPOAuthTopics
 
