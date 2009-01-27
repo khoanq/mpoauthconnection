@@ -16,8 +16,9 @@ OAuth has three signing methods, Plaintext, HMAC-SHA1, and RSA-SHA1, most of the
 
 ==  3. Hit the Authorize button ==
 OAuth preferrably goes through a 3 step authorization sequence in which you first ask for a request token, are issued one and then move on to the next step which is asking for user authorization, generally in a browser. And finally after the user has granted access, the application requesting authorization is given an access token and secret to use for authenticated requests.
-    3a. A browser will automatically open where you will provide user access credentials
-    3b. The Authorize button should now say "Request User Access", hit that one last time and it changes to "Access Token Acquired"
+
+  * 3a. A browser will automatically open where you will provide user access credentials
+  * 3b. The Authorize button should now say "Request User Access", hit that one last time and it changes to "Access Token Acquired"
 
 
 ==  4. Type in the API requests you wish to now make and they should all successfully return ==
