@@ -44,4 +44,4 @@ Perform an asynchronous request by providing the method string relative to the b
 - (NSData *)dataForURL:(NSURL *)inURL andMethod:(NSString *)inMethod withParameters:(NSArray *)inParameters;
 }}}
 
-Perform an synchronous request by providing the method string relative to the baseURL, the data object is returned to the caller. You can also pass in a different baseURL in the case where a service shares credentials across more than one service endpoint.
+Perform a synchronous request by providing the method string relative to the baseURL, the data object is returned to the caller. You can also pass in a different baseURL in the case where a service shares credentials across more than one service endpoint.
