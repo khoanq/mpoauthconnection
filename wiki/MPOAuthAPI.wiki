@@ -1,4 +1,5 @@
 #summary Documentation for the MPOAuthAPI class and its use
+#sidebar TOCMPOAuthTopics
 
 = Introduction =
 
@@ -18,20 +19,23 @@ MPOAuthAPI is the class in which all the magic happens. It's responsible for cre
 @property (nonatomic, readwrite, assign) id <MPOAuthAPIDelegate> delegate;
 
 == Initialization ==
-
+{{{
 - (id)initWithCredentials:(NSDictionary *)inCredentials andBaseURL:(NSURL *)inURL;
 - (id)initWithCredentials:(NSDictionary *)inCredentials authenticationURL:(NSURL *)inAuthURL andBaseURL:(NSURL *)inBaseURL;
-
+}}}
 == Authentication ==
-
+{{{
 - (void)authenticate;
-
+}}}
 == Asynchronous API Requests ==
-
+{{{
 - (void)performMethod:(NSString *)inMethod withTarget:(id)inTarget andAction:(SEL)inAction;
 - (void)performMethod:(NSString *)inMethod atURL:(NSURL *)inURL withParameters:(NSArray *)inParameters withTarget:(id)inTarget andAction:(SEL)inAction;
+}}}
 
 == Synchronous API Requests ==
+{{{
 - (NSData *)dataForMethod:(NSString *)inMethod;
 - (NSData *)dataForMethod:(NSString *)inMethod withParameters:(NSArray *)inParameters;
 - (NSData *)dataForURL:(NSURL *)inURL andMethod:(NSString *)inMethod withParameters:(NSArray *)inParameters;
+}}}
