@@ -1,5 +1,6 @@
 #summary Documentation for the MPOAuthAPIRequestLoader class responsible for encapsulating API requests
 #labels Documentation
+#sidebar TOCMPOAuthTopics
 
 = Introduction =
 
