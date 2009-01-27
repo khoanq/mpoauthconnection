@@ -23,4 +23,4 @@ OAuth preferrably goes through a 3 step authorization sequence in which you firs
   4. Type in the API requests you wish to now make and they should all successfully return
 
 = How MPOAuthClient is built =
-MPOAuthClient boils down to 1 source file and 1 header file. Source totally a whopping ~65 lines of code. Only parts that are required are including and linking to the MPOAuth framework.
+MPOAuthClient boils down to 1 source file and 1 header file. Source totally a whopping ~65 lines of code. Only parts that are required are including and linking to the MPOAuth framework, then creating an instance of MPOAuthAPI and setting your urls and credentials.
