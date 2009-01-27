@@ -1,5 +1,5 @@
   * [GettingStarted ↑ Home]
-  * [Examples Samples]
+  * Samples
     * [MPOAuthClient MPOAuthClient]
     * [MPOAuthMobile MPOAuthMobile]
   * High Level APIs
