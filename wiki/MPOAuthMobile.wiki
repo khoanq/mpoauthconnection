@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary MPOAuthMobile sample application for iPhone and iPod Touch
 #labels Documentation
 
 = Introduction =
