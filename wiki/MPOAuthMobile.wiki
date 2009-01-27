@@ -6,9 +6,8 @@
 
 MPOAuthMobile is a sample application showing how to link and use MPOAuth with your iPhone or iPod Touch application. It differs from MPOAuthClient since it's not really useful as a diagnostic tool since text input on the iPhone is nowhere near as easy as on a desktop. Instead it utilizes the MPOAuthAPI delegate API to manually take part in the automatic authorization to prevent the default launch of an external browser to handle requesting user access credentials.
 
-= Details =
+= Using MPOAuthMobile =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+There's not much to do in this case. All you need to do is launch the application and watch it do everything for you.
+
+= How to build MPOAuthMobile =
